@@ -24,6 +24,7 @@ THEN the saved events persist
 ## Links
 
 Link to repository: https://github.com/jmproctor/Work-Day-Scheduler
+
 Link to deployed project: https://jmproctor.github.io/Work-Day-Scheduler/
 
 ## Screenshot
