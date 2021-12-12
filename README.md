@@ -27,3 +27,5 @@ Link to repository: https://github.com/jmproctor/Work-Day-Scheduler
 Link to deployed project: https://jmproctor.github.io/Work-Day-Scheduler/
 
 ## Screenshot
+
+![image](https://user-images.githubusercontent.com/92322247/145717645-e4182fd5-730b-40aa-92a4-bb7775fe2895.png)
