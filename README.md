@@ -21,6 +21,12 @@ THEN the text for that event is saved in local storage
 WHEN I refresh the page
 THEN the saved events persist
 
+## Built With
+
+HTML, CSS, and Javascript
+Bootstrap Documentation: https://getbootstrap.com/
+JQUERY Documentation: https://api.jquery.com/
+
 ## Links
 
 Link to repository: https://github.com/jmproctor/Work-Day-Scheduler
