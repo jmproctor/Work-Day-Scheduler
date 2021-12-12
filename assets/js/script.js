@@ -4,7 +4,7 @@ $(document).ready(function() {
         var actualTime = moment().hours();
         //changes the timeBlock color based on whether it is past, present, or future
         $(".time-block").each(function() {
-            var hourBlock = parseInt($(this).attr("id".split("-")[1]))
+            var hourBlock = parseInt($(this).attr("id").split("-")[1])
             
             if (hourBlock<actualTime) {
                 $(this).addClass("past");
@@ -15,16 +15,16 @@ $(document).ready(function() {
                 $(this).addClass("future")
                 $(this).removeClass("past")
                 $(this).removeClass("present")
-            };
-        });
-    };
+            }
+        })
+    }
 
     hourColor();
 
     $(".saveBtn").on("click", function() {
 
-        var hour = $(this).parent().attr("id");
-        var text = $(this).siblings(".description").val();
+        var hour = $(this).parent().attr("id")
+        var text = $(this).siblings(".description").val()
         //puts info into local storage
         localStorage.setItem(hour, text);
     });
@@ -40,7 +40,6 @@ $(document).ready(function() {
     $("#hour15 .description").val(localStorage.getItem("hour15"));
     $("#hour16 .description").val(localStorage.getItem("hour16"));
     $("#hour17 .description").val(localStorage.getItem("hour17"));
-
     //displays current day & time
     $("#currentDay").text(moment().format("LLLL"));
 })
