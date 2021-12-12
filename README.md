@@ -24,7 +24,9 @@ THEN the saved events persist
 ## Built With
 
 HTML, CSS, and Javascript
+
 Bootstrap Documentation: https://getbootstrap.com/
+
 JQUERY Documentation: https://api.jquery.com/
 
 ## Links
